@@ -4,6 +4,8 @@ project(genises_node)
 # added
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+# added
+include_directories(include/genises_node)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
