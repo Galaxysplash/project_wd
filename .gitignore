@@ -1,0 +1,16 @@
+# colcon build artefacts
+build/
+install/
+log/
+
+# Python cache (falls du später Python-Nodes hast)
+__pycache__/
+*.pyc
+
+# VS Code Settings (optional)
+.vscode/
+compile_commands.json
+
+# ROS2 local files
+*.launch.py~
+*.swp
