@@ -6,3 +6,4 @@ cd scripts
 ./cleanup.sh
 ./build.sh
 ./deploy.sh
+./cleanup.sh
