@@ -2,6 +2,9 @@
 build/
 install/
 log/
+build
+install
+log
 
 # Python cache (falls du später Python-Nodes hast)
 __pycache__/
