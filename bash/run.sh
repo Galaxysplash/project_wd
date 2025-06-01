@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-cd scripts
+pwd
+cd bash
 
 ./cleanup.sh
 ./build.sh
